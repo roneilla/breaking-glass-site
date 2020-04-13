@@ -56,10 +56,13 @@ a {
 
 p {
   font-family: 'Lora', serif;
+  line-height: 2.5rem;
+  font-size: 1.25rem;
 }
 
 .highlight {
   color: #ab5926;
+  font-weight: 600;
 }
 
 /* Components */
@@ -87,6 +90,7 @@ button {
   font-family: 'IBM Plex Sans', sans-serif;
   border: 0;
   font-size: 1.25rem;
+  margin-top: 20px;
 }
 
 .button a {
@@ -191,7 +195,7 @@ ul li a:hover,
 .section {
   float: left;
   margin: 50px 0;
-  height: 600px;
+  /* height: 600px; */
   width: 100%;
 }
 
@@ -239,8 +243,7 @@ iframe {
 .home-desc {
   width: 50%;
   float: left;
-  padding: 50px;
-  line-height: 1.75rem;
+  padding: 20px 50px;
 }
 
 .testimonials {
@@ -364,4 +367,256 @@ footer {
   margin-top: 10px;
   margin-right: 10px;
   object-fit: contain;
+}
+
+.about-header {
+  color: #5a8c8a;
+  background: url(img/About-TopDots.png) no-repeat;
+  padding: 20px 40% 100px 30px;
+  background-size: contain;
+  line-height: 4rem;
+  margin: 100px 0;
+  /* height: 300px; */
+}
+
+.mission-title {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  color: #8b9ccc;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.mission-desc {
+  font-family: 'Lora', serif;
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 4rem;
+  letter-spacing: 1px;
+}
+
+.mission {
+  background-color: #475d9c;
+  border-radius: 5px;
+  width: 100%;
+  padding: 50px 75px;
+}
+
+.confidence-wrapper {
+  grid-template-columns: 50% 50%;
+}
+
+.confidence-col1 {
+  float: left;
+  grid-column-start: 1;
+  width: 50%;
+  padding: 20px;
+}
+
+.confidence-col1 p {
+  margin-top: 75px;
+}
+
+.confidence-col2 {
+  grid-column-start: 2;
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
+
+.confidence-col2 p {
+  margin-top: 135px;
+  float: left;
+}
+
+.iframe-2 {
+  width: 100%;
+}
+
+.photo-about {
+  width: 100%;
+  object-fit: contain;
+}
+
+.motivation-title {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #475d9c;
+  background: #e8f4f9;
+  border-radius: 5px;
+  padding: 40px 30px;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 100px 0;
+}
+
+.motivation-wrapper {
+  grid-template-columns: 50% 50%;
+}
+
+.motivation-col1 {
+  float: left;
+  grid-column-start: 1;
+  width: 50%;
+  padding: 20px;
+}
+
+.motivation-col2 {
+  float: left;
+  grid-column-start: 2;
+  width: 50%;
+  padding: 100px 50px;
+}
+
+.motivation-col2 p {
+  line-height: 2rem;
+}
+
+.about-callout {
+  font-size: 2.25rem;
+  padding: 30px 50px;
+  background-color: #aeb0d6;
+  border-radius: 5px;
+  color: #fff;
+  letter-spacing: 1px;
+  height: 200px;
+  line-height: 3rem;
+}
+
+.about-callout-text {
+  width: 85%;
+  float: left;
+  margin: 30px 0 0 5%;
+}
+
+.photo-about2 {
+  width: 9%;
+  object-fit: contain;
+  float: left;
+}
+
+.proportion-desc {
+  line-height: 2.5rem;
+  width: 80%;
+  margin: 100px 0;
+  float: left;
+}
+
+.team-img {
+  width: 250px;
+  object-fit: contain;
+}
+
+.team-photos {
+  width: 100%;
+  float: left;
+  margin: 50px 0;
+}
+
+.team-block {
+  float: left;
+  margin: 0 35px;
+}
+
+.team-name {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  color: #2a2f43;
+  text-align: center;
+  font-size: 2rem;
+  margin: 15px 0;
+}
+
+.team-sub {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #2a2f43;
+  text-align: center;
+}
+
+.team-desc p {
+  line-height: 2.5rem;
+  margin: 100px 0;
+  float: left;
+}
+
+.program-header {
+  background: url('img/Program-PurpleDots-forHeader.png') no-repeat;
+  color: #475d9c;
+  padding: 20px 40% 100px 30px;
+  background-size: contain;
+  line-height: 4rem;
+  margin: 100px 0;
+}
+.diversity-wrapper {
+  grid-template-columns: 60% 40%;
+}
+
+.div-col1 {
+  grid-column-start: 1;
+  float: left;
+  width: 60%;
+}
+
+.div-col2 {
+  grid-column-start: 2;
+  float: left;
+  width: 40%;
+  padding: 30px 60px;
+}
+
+.statistics-wrapper {
+  background-color: #e5f4f9;
+  width: 100vw;
+  padding: 60px 12.5vw;
+}
+
+.stat-num {
+  font-family: 'Lora', serif;
+  font-size: 3rem;
+  float: left;
+  margin-right: 5%;
+  width: 25%;
+}
+
+.stat-desc {
+  font-family: 'IBM Plex Sans', sans-serif;
+  float: left;
+  width: 70%;
+  font-weight: 600;
+}
+
+.stat-block {
+  color: #475d9c;
+  width: 27%;
+  margin: 50px 2.5%;
+  float: left;
+  background-color: #fff;
+  padding: 30px;
+    border-radius: 5px;
+}
+
+.stat-blocks {
+  width: 100%;
+  float: left;
+}
+
+.line {
+  border: dashed 1.5px #475d9c;
+  float: left;
+  margin: 20px 0 50px 0;
+  width: 100%;
+}
+
+.stats-text {
+  float: left;
+  width: 100%;
+  margin: 50px 0;
+}
+
+.build {
+  width: 100vw;
+  padding: 60px 12.5vw;
+}
+
+.build-img {
+  width: 100%;
 }
